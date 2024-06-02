@@ -1,0 +1,108 @@
+* {
+  background-color: #090630;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.alphaColor{
+  color: rgb(51, 224, 3);
+}
+
+.navbar {
+  display: flex;
+  /* justify-content: space-around; */
+  height: 40px;
+  padding: 10px 0px;
+}
+.navTitle {
+  font-size: 30px;
+  padding-top: 5px;
+  padding-left: 100px;
+  flex: 30%;
+}
+.navLinks {
+  flex: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.navLinks ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+.navLinks ul li {
+  padding: 0px 20px;
+}
+.navLinks ul li a {
+  text-decoration: none;
+}
+.navLinks ul li a:hover {
+  color: rgb(51, 224, 3);
+}
+.horizonLineBox {
+  padding: 0px 100px;
+}
+.horizon:hover {
+ border : 1px solid rgb(51, 224, 3);
+}
+.bodySection {
+  display: flex;
+  height: 550px;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 55%;
+}
+.profilePic {
+  display: flex;
+  justify-content: center;
+  flex: 45%;
+  padding-top: 50px;
+}
+.introBoxOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  padding-left: 100px;
+}
+.introBoxOne div {
+  margin-top: 20px;
+}
+.profileButtons {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 100px;
+  margin-top: 40px;
+}
+
+.name {
+  font-size: 30px;
+}
+.designation {
+  font-size: 25px;
+}
+.introDesc {
+  font-size: 20px;
+}
+
+.profileButtons button {
+  height: 40px;
+  width: 150px;
+  border: 1px solid white;
+  margin-right: 20px;
+}
+
+.profileButtons button:hover{
+border: 1px solid rgb(51, 224, 3);
+color:rgb(51, 224, 3);
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
